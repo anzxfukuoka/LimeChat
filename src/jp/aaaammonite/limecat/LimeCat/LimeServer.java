@@ -33,6 +33,7 @@ public class LimeServer {
 
             @Override
             public void onMessage(User user, String data) {
+                if (data.isEmpty()) return;
                 System.out.println("(" + user + ")" + data);
                 s.broadcastMessage("(" + user + ")" + data);
             }

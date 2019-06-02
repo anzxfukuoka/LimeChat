@@ -41,7 +41,7 @@ public class User {
             byte buf[] = new byte[64*1024];
             int r = is.read(buf);
 
-            String data = new String(buf, 0, buf.length);//тут какая-то дич
+            String data = new String(buf, 0, r);//тут какая-то дич
             server.onMessage(getUser(), data);
 
         } catch (IOException e) {

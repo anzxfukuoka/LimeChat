@@ -17,7 +17,7 @@ public class LimeClient {
 
     public static void main(String[] args) {
 
-        System.out.println("+++++++++++WELCOME TO THE LIMECAT++++++++++++");
+        System.out.println("+++++++++++WELCOME TO THE LIMECHAT++++++++++++");
 
         scan = new Scanner(System.in);
 
@@ -30,6 +30,7 @@ public class LimeClient {
         c = new Client(addr, port){
             @Override
             public void onMessage(User user , String data) {//user == null
+                if(data.isEmpty()) return;
                 System.out.println(data);
                 //c.sendData(data.getBytes());
             }
