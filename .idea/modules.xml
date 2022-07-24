@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LimeCat.iml" filepath="$PROJECT_DIR$/LimeCat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LimeChat.iml" filepath="$PROJECT_DIR$/LimeChat.iml" />
     </modules>
   </component>
 </project>

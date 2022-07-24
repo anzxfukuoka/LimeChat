@@ -1,14 +1,15 @@
 
-# LimeChat
+# LimeChat 
 
-java console chat
+java console chat ~(=^. .^=)
 
-## Requierments
+## Requirements
 
-You must:
+- Have installed Java 11 or higher
 
-- Have instaled Java 7 or higher
-- Download from [last releas](/releases/latest)
+## Installation
+
+- Download from [last releases](https://github.com/anzxfukuoka/LimeChat/releases)
     - LimeChatClient.jar
     - LimeChatServer.jar
 
@@ -36,4 +37,4 @@ ipconfig
 
 ---
 
-~(=^. .^=)
+
