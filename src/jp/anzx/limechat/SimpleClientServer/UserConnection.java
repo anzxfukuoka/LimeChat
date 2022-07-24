@@ -1,4 +1,4 @@
-package SimpleClientServer;
+package jp.anzx.limechat.SimpleClientServer;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,7 +1,7 @@
-package jp.aaaammonite.limechat.LimeChat;
+package jp.anzx.limechat.cli;
 
-import SimpleClientServer.Client;
-import SimpleClientServer.UserConnection;
+import jp.anzx.limechat.SimpleClientServer.Client;
+import jp.anzx.limechat.SimpleClientServer.UserConnection;
 
 import java.util.Scanner;
 

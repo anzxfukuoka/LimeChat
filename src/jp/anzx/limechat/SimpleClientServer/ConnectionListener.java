@@ -1,4 +1,4 @@
-package SimpleClientServer;
+package jp.anzx.limechat.SimpleClientServer;
 
 public interface ConnectionListener {
     public void onMessage(UserConnection userConnection, String data);

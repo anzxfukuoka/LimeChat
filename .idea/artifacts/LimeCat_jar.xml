@@ -2,7 +2,7 @@
   <artifact type="jar" name="LimeCat:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/LimeCat_jar</output-path>
     <root id="archive" name="LimeCat.jar">
-      <element id="module-output" name="LimeCat" />
+      <element id="module-output" name="LimeChat" />
     </root>
   </artifact>
 </component>
