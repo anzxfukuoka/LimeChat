@@ -1,4 +1,4 @@
-package jp.anzx.limechat.cli;
+package jp.anzx.limechat.cli.client;
 
 import jp.anzx.limechat.SimpleClientServer.Client;
 import jp.anzx.limechat.SimpleClientServer.UserConnection;

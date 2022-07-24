@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LimeClientCLI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LimeClientCLI_jar</output-path>
+    <root id="archive" name="LimeClientCLI.jar">
+      <element id="module-output" name="LimeChat" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/client.META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

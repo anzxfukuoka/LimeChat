@@ -2,21 +2,36 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="LimeCat:jar" />
+      <artifact name="LimeClientCLI:jar" />
+      <artifact name="LimeServerCLI:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd785d4d-0532-4dd6-bc93-4534699cb955" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LimeCat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LimeChat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/SimpleClientServer/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/ConnectionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/SimpleClientServer/ConnectionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/SimpleClientServer/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/SimpleClientServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/SimpleClientServer/SimpleClientServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/UserConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/SimpleClientServer/UserConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limechat/LimeChat/LimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/cli/LimeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limechat/LimeChat/LimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/cli/LimeServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limechat/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LimeClientCLI_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LimeServerCLI_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client.META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LimeCat_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/SimpleClientServer/Client$ClientThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/SimpleClientServer/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/SimpleClientServer/ConnectionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/SimpleClientServer/Server$ServerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/SimpleClientServer/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/SimpleClientServer/UserConnection$UserThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/SimpleClientServer/UserConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/jp/aaaammonite/limechat/LimeChat/LimeClient$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/jp/aaaammonite/limechat/LimeChat/LimeClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/jp/aaaammonite/limechat/LimeChat/LimeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/jp/aaaammonite/limechat/LimeChat/LimeServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/jp/aaaammonite/limechat/LimeChat/LimeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LimeCat/jp/aaaammonite/limechat/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jp/anzx/limechat/cli/LimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/cli/client/LimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jp/anzx/limechat/cli/LimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/anzx/limechat/cli/server/LimeServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,6 +76,9 @@
     <option name="height" value="938" />
   </component>
   <component name="ProjectId" id="2CODWnS5m69Yl1qeQ9niZblEfJj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -113,62 +131,46 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Anzx/MISC/dev/LimeChat/src/jp/aaaammonite/limechat",
-    "nodejs_package_manager_path": "npm"
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "C:/Users/Anzx/MISC/dev/LimeChat/client.META-INF/MANIFEST.MF",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WK_DEV\LimeCat\src\jp\aaaammonite\limecat\LimeCat" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anzx\MISC\dev\LimeChat\src" />
+      <recent name="C:\Users\Anzx\MISC\dev\LimeChat\src\jp\anzx\limechat" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.jp.aaaammonite.limechat.LimeChat.CLI.LimeClient">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limechat.Main" />
-      <module name="LimeChat" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="jp.aaaammonite.limechat.LimeChat.CLI.LimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limechat.LimeChat.CLI.LimeClient" />
+  <component name="RunManager" selected="Application.LimeClient">
+    <configuration name="LimeClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="jp.anzx.limechat.cli.client.LimeClient" />
       <module name="LimeChat" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jp.aaaammonite.limechat.LimeChat.CLI.LimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limechat.LimeChat.CLI.LimeServer" />
+    <configuration name="LimeServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="jp.anzx.limechat.cli.server.LimeServer" />
       <module name="LimeChat" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="LimeChat" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LimeChat" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.CLI.LimeClient" />
-      <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.CLI.LimeServer" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.LimeClient" />
+      <item itemvalue="Application.LimeServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.CLI.LimeClient" />
-        <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.CLI.LimeServer" />
+        <item itemvalue="Application.LimeServer" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +181,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658664794318</updated>
-      <workItem from="1658664817697" duration="7126000" />
+      <workItem from="1658664817697" duration="10092000" />
+      <workItem from="1658676455893" duration="2124000" />
     </task>
     <servers />
   </component>
