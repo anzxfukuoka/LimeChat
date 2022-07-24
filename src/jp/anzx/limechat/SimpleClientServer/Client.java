@@ -1,11 +1,11 @@
-package SimpleClientServer;
+package jp.anzx.limechat.SimpleClientServer;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class Client implements Listener{
+public class Client implements ConnectionListener {
 
     OutputStream os;
     InputStream is;
@@ -77,17 +77,17 @@ public class Client implements Listener{
      * */
 
     @Override
-    public void onMessage(User user, String data) {//USER == NULL
+    public void onMessage(UserConnection userConnection, String data) {//USER == NULL
 
     }
 
     @Override
-    public void onConnect(User user) {//USER == NULL
+    public void onConnect(UserConnection userConnection) {//USER == NULL
 
     }
 
     @Override
-    public void onDisconect(User user) {//USER == NULL
+    public void onDisconect(UserConnection userConnection) {//USER == NULL
 
     }
 
