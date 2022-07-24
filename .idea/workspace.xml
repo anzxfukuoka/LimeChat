@@ -11,8 +11,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/ConnectionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/ConnectionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/ConnectionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/UserConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658664794318</updated>
-      <workItem from="1658664817697" duration="2869000" />
+      <workItem from="1658664817697" duration="3903000" />
     </task>
     <servers />
   </component>
