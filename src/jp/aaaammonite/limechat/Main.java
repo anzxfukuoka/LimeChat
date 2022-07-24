@@ -1,4 +1,4 @@
-package jp.aaaammonite.limecat;
+package jp.aaaammonite.limechat;
 
 public class Main {
 

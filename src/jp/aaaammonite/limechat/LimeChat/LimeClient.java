@@ -1,4 +1,4 @@
-package jp.aaaammonite.limecat.LimeCat;
+package jp.aaaammonite.limechat.LimeChat;
 
 import SimpleClientServer.Client;
 import SimpleClientServer.UserConnection;

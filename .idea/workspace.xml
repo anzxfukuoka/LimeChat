@@ -10,11 +10,13 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/ConnectionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/ConnectionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleClientServer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleClientServer/UserConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/aaaammonite/limechat/LimeChat/LimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/LimeCat/LimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/aaaammonite/limechat/LimeChat/LimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jp/aaaammonite/limecat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jp/aaaammonite/limechat/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,23 +122,23 @@
       <recent name="D:\WK_DEV\LimeCat\src\jp\aaaammonite\limecat\LimeCat" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LimeClient">
+  <component name="RunManager" selected="Application.jp.aaaammonite.limechat.LimeChat.LimeClient">
     <configuration name="LimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limecat.LimeCat.LimeClient" />
+      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limechat.LimeChat.LimeClient" />
       <module name="LimeCat" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limecat.LimeCat.LimeServer" />
+      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limechat.LimeChat.LimeServer" />
       <module name="LimeCat" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limecat.Main" />
+      <option name="MAIN_CLASS_NAME" value="jp.aaaammonite.limechat.Main" />
       <module name="LimeCat" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -146,14 +148,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LimeClient" />
-      <item itemvalue="Application.LimeServer" />
+      <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.LimeClient" />
+      <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.LimeServer" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LimeClient" />
-        <item itemvalue="Application.LimeServer" />
+        <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.LimeClient" />
+        <item itemvalue="Application.jp.aaaammonite.limechat.LimeChat.LimeServer" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658664794318</updated>
-      <workItem from="1658664817697" duration="3903000" />
+      <workItem from="1658664817697" duration="6555000" />
     </task>
     <servers />
   </component>
