@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class Client implements Listener{
+public class Client implements ConnectionListener {
 
     OutputStream os;
     InputStream is;

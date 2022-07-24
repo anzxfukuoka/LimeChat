@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-public class Server implements Listener{
+public class Server implements ConnectionListener {
 
     boolean alive = false;
 
