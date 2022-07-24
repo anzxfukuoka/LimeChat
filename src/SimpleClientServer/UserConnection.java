@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class User {
+public class UserConnection {
 
     OutputStream os;
     InputStream is;
@@ -15,7 +15,7 @@ public class User {
     Socket socket;
     String addr;
 
-    public User(Server server,Socket socket){
+    public UserConnection(Server server, Socket socket){
         this.server = server;
         this.socket = socket;
 
@@ -72,7 +72,7 @@ public class User {
         }
     }
 
-    public User getUser(){
+    public UserConnection getUser(){
         return this;
     }
 

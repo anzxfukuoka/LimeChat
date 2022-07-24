@@ -1,7 +1,7 @@
 package jp.aaaammonite.limecat.LimeCat;
 
 import SimpleClientServer.Client;
-import SimpleClientServer.User;
+import SimpleClientServer.UserConnection;
 
 import java.util.Scanner;
 
@@ -29,14 +29,14 @@ public class LimeClient {
 
         c = new Client(addr, port){
             @Override
-            public void onMessage(User user , String data) {//user == null
+            public void onMessage(UserConnection userConnection, String data) {//user == null
                 if(data.isEmpty()) return;
                 System.out.println(data);
                 //c.sendData(data.getBytes());
             }
 
             @Override
-            public void onConnect(User user) {
+            public void onConnect(UserConnection userConnection) {
                 //эту стремную лабуду стоит пофиксить хендлером в класск client
                 new Thread(new Runnable() {
                     @Override
@@ -53,8 +53,8 @@ public class LimeClient {
             }
 
             @Override
-            public void onDisconect(User user) {
-                super.onDisconect(user);
+            public void onDisconect(UserConnection userConnection) {
+                super.onDisconect(userConnection);
                 System.out.println("сервер " + addr + " оффлайн");
             }
         };

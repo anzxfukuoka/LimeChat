@@ -12,12 +12,12 @@ public class Server implements ConnectionListener {
     int port;
     ServerSocket serversocket;
 
-    ArrayList<User> users;
+    ArrayList<UserConnection> userConnections;
 
     public Server(int port){
         this.port = port;
 
-        users = new ArrayList<>();
+        userConnections = new ArrayList<>();
 
     }
 
@@ -36,19 +36,19 @@ public class Server implements ConnectionListener {
     * */
 
     @Override
-    public void onMessage(User user, String data) {
+    public void onMessage(UserConnection userConnection, String data) {
 
     }
 
     @Override
-    public void onConnect(User user) {
-        users.add(user);
+    public void onConnect(UserConnection userConnection) {
+        userConnections.add(userConnection);
 
     }
 
     @Override
-    public void onDisconect(User user) {
-        users.remove(user);
+    public void onDisconect(UserConnection userConnection) {
+        userConnections.remove(userConnection);
     }
 
     /*
@@ -57,14 +57,14 @@ public class Server implements ConnectionListener {
      * */
 
     //
-    public void sendMessage(User user, String msg){
-        user.sendData(msg.getBytes());
+    public void sendMessage(UserConnection userConnection, String msg){
+        userConnection.sendData(msg.getBytes());
     }
 
     //сообщение всем пользователям
     public void broadcastMessage(String msg){
-        for (int i = 0; i < users.size(); i++) {
-            users.get(i).sendData(msg.getBytes());
+        for (int i = 0; i < userConnections.size(); i++) {
+            userConnections.get(i).sendData(msg.getBytes());
         }
     }
 
@@ -80,7 +80,7 @@ public class Server implements ConnectionListener {
                 while (alive){//можно дернуть через start/stop
 
                     Socket clientSocket = serversocket.accept();// accept() будет ждатьj
-                    new User(getServer(), clientSocket);//юзер отправит серверу onConnected
+                    new UserConnection(getServer(), clientSocket);//юзер отправит серверу onConnected
 
                 }
 
@@ -98,8 +98,8 @@ public class Server implements ConnectionListener {
         }
     }
 
-    public ArrayList<User> getUsers(){
-        return users;
+    public ArrayList<UserConnection> getUsers(){
+        return userConnections;
     }
 
     //костыль

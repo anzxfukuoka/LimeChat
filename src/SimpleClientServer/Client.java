@@ -77,17 +77,17 @@ public class Client implements ConnectionListener {
      * */
 
     @Override
-    public void onMessage(User user, String data) {//USER == NULL
+    public void onMessage(UserConnection userConnection, String data) {//USER == NULL
 
     }
 
     @Override
-    public void onConnect(User user) {//USER == NULL
+    public void onConnect(UserConnection userConnection) {//USER == NULL
 
     }
 
     @Override
-    public void onDisconect(User user) {//USER == NULL
+    public void onDisconect(UserConnection userConnection) {//USER == NULL
 
     }
 
