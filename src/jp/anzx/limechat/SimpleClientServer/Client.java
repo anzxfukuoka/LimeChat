@@ -7,6 +7,7 @@ import java.net.Socket;
 
 public class Client implements ConnectionListener {
 
+    public static final String DEFAULT_ROOM = "default_room";
     OutputStream os;
     InputStream is;
 
@@ -16,9 +17,16 @@ public class Client implements ConnectionListener {
     int port;
     String addr;
 
+    String roomID = DEFAULT_ROOM;
+
     public Client(String addr, int port){
         this.addr = addr;
         this.port = port;
+    }
+
+    public void setRoomID(String roomID)
+    {
+        this.roomID = roomID;
     }
 
     //подключится к серверу
@@ -99,7 +107,11 @@ public class Client implements ConnectionListener {
     class ClientThread extends Thread{
         @Override
         public void run() {
+
             onConnect(null);
+
+            sendData(("/set_room_id " + roomID).getBytes());
+
             while (!serversocket.isClosed()){
                 getData();
             }

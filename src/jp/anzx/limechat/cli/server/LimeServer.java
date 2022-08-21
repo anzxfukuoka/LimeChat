@@ -34,8 +34,21 @@ public class LimeServer {
             @Override
             public void onMessage(UserConnection userConnection, String data) {
                 if (data.isEmpty()) return;
+
+                if(data.startsWith("/set_room_id ")){
+                    String roomId = data.split(" ")[1];
+                    userConnections.get(userConnections.size() - 1).setRoomID(roomId);
+                }
+
                 System.out.println("(" + userConnection + ")" + data);
-                s.broadcastMessage("(" + userConnection + ")" + data);
+
+                //s.broadcastMessage("(" + userConnection + ")" + data);
+
+                for (UserConnection otherConnection : userConnections) {
+                    if(otherConnection.getRoomID().equals(userConnection.getRoomID())){
+                        otherConnection.sendData(("(" + userConnection + ")" + data).getBytes());
+                    }
+                }
             }
         };
         s.start();

@@ -12,7 +12,7 @@ public class Server implements ConnectionListener {
     int port;
     ServerSocket serversocket;
 
-    ArrayList<UserConnection> userConnections;
+    protected ArrayList<UserConnection> userConnections;
 
     public Server(int port){
         this.port = port;

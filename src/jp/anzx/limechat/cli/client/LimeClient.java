@@ -13,8 +13,6 @@ public class LimeClient {
 
     static Scanner scan = null;
 
-
-
     public static void main(String[] args) {
 
         System.out.println("+++++++++++WELCOME TO THE LIMECHAT++++++++++++");
@@ -26,6 +24,9 @@ public class LimeClient {
 
         System.out.print("введите адрес чата: ");
         String addr = scan.nextLine();
+
+        System.out.print("введите id комнаты: ");
+        String roomID = scan.nextLine();
 
         c = new Client(addr, port){
             @Override
@@ -58,6 +59,8 @@ public class LimeClient {
                 System.out.println("сервер " + addr + " оффлайн");
             }
         };
+
+        c.setRoomID(roomID.isEmpty() ? Client.DEFAULT_ROOM : roomID);
 
         c.connect();
 

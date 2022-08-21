@@ -15,6 +15,16 @@ public class UserConnection {
     Socket socket;
     String addr;
 
+    String roomID;
+
+    public void setRoomID(String roomID){
+        this.roomID = roomID;
+    }
+
+    public String getRoomID(){
+        return this.roomID;
+    }
+
     public UserConnection(Server server, Socket socket){
         this.server = server;
         this.socket = socket;
